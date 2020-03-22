@@ -14,6 +14,6 @@ class Migration(migrations.Migration):
             name='BlogPost',
         ),
         migrations.DeleteModel(
-            name='Tag',
+            name='Tag', 
         ),
     ]
