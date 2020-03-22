@@ -18,7 +18,9 @@ from django.urls import path, include
 from .views import redirect_root
 
 urlpatterns = [
+    path('accounts/', include('users.urls')),
     path('admin/', admin.site.urls),
     path('blog/', include('mainapp.urls')),    
-    path('', redirect_root)
+    path('', redirect_root),
+    
 ]
