@@ -1,125 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-	<testsuite errors="0" failures="8" file="tests.py" name="tests.PostTestCase-20200323002808" skipped="0" tests="10" time="0.034" timestamp="2020-03-23T00:28:08">
-		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="235" name="test_task10_make_migrations" time="0.012" timestamp="2020-03-23T00:28:08">
+	<testsuite errors="0" failures="0" file="tests.py" name="tests.PostTestCase-20200323005015" skipped="0" tests="10" time="0.028" timestamp="2020-03-23T00:50:15">
+		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="235" name="test_task10_make_migrations" time="0.009" timestamp="2020-03-23T00:50:15">
 			<system-out>
 <![CDATA[]]>			</system-out>
 			<system-err>
 <![CDATA[]]>			</system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="111" name="test_task1_post_model_exists" time="0.001" timestamp="2020-03-23T00:28:08">
+		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="111" name="test_task1_post_model_exists" time="0.004" timestamp="2020-03-23T00:50:15">
 			<system-out>
 <![CDATA[]]>			</system-out>
 			<system-err>
 <![CDATA[]]>			</system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="120" name="test_task2_author_exists" time="0.003" timestamp="2020-03-23T00:28:08">
-			<failure message="Did you import `django.conf`'s `settings`" type="AssertionError">
-<![CDATA[Traceback (most recent call last):
-  File "/Users/dell/Documents/GitHub/python-django-models-authentication/module3/tests.py", line 127, in test_task2_author_exists
-    self.assertTrue(self.settings_import_found, msg="Did you import `django.conf`'s `settings`")
-  File "/Users/dell/Documents/GitHub/python-django-models-authentication/support/SimplerTestCase.py", line 12, in assertTrue
-    self.fail(msg or (str(expr) + "is not True"))
-AssertionError: Did you import `django.conf`'s `settings`
-]]>			</failure>
+		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="120" name="test_task2_author_exists" time="0.001" timestamp="2020-03-23T00:50:15">
 			<system-out>
 <![CDATA[]]>			</system-out>
 			<system-err>
 <![CDATA[]]>			</system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="133" name="test_task3_body_exists" time="0.001" timestamp="2020-03-23T00:28:08">
-			<failure message="Did you add the `body` field?" type="AssertionError">
-<![CDATA[Traceback (most recent call last):
-  File "/Users/dell/Documents/GitHub/python-django-models-authentication/module3/tests.py", line 137, in test_task3_body_exists
-    self.assertTrue(self.body_field_found, msg="Did you add the `body` field?")
-  File "/Users/dell/Documents/GitHub/python-django-models-authentication/support/SimplerTestCase.py", line 12, in assertTrue
-    self.fail(msg or (str(expr) + "is not True"))
-AssertionError: Did you add the `body` field?
-]]>			</failure>
+		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="133" name="test_task3_body_exists" time="0.001" timestamp="2020-03-23T00:50:15">
 			<system-out>
 <![CDATA[]]>			</system-out>
 			<system-err>
 <![CDATA[]]>			</system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="139" name="test_task4_postdate_exists" time="0.001" timestamp="2020-03-23T00:28:08">
-			<failure message="Did you add the `postdate` field and parameters?" type="AssertionError">
-<![CDATA[Traceback (most recent call last):
-  File "/Users/dell/Documents/GitHub/python-django-models-authentication/module3/tests.py", line 141, in test_task4_postdate_exists
-    self.assertTrue(self.postdate_field_found, msg="Did you add the `postdate` field and parameters?")
-  File "/Users/dell/Documents/GitHub/python-django-models-authentication/support/SimplerTestCase.py", line 12, in assertTrue
-    self.fail(msg or (str(expr) + "is not True"))
-AssertionError: Did you add the `postdate` field and parameters?
-]]>			</failure>
+		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="139" name="test_task4_postdate_exists" time="0.001" timestamp="2020-03-23T00:50:15">
 			<system-out>
 <![CDATA[]]>			</system-out>
 			<system-err>
 <![CDATA[]]>			</system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="145" name="test_task5_str_exists" time="0.001" timestamp="2020-03-23T00:28:08">
-			<failure message="Did you implement the `__str__` method in the `post` model class?" type="AssertionError">
-<![CDATA[Traceback (most recent call last):
-  File "/Users/dell/Documents/GitHub/python-django-models-authentication/module3/tests.py", line 146, in test_task5_str_exists
-    self.assertTrue(self.str_method_found, msg="Did you implement the `__str__` method in the `post` model class?")
-  File "/Users/dell/Documents/GitHub/python-django-models-authentication/support/SimplerTestCase.py", line 12, in assertTrue
-    self.fail(msg or (str(expr) + "is not True"))
-AssertionError: Did you implement the `__str__` method in the `post` model class?
-]]>			</failure>
+		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="145" name="test_task5_str_exists" time="0.001" timestamp="2020-03-23T00:50:15">
 			<system-out>
 <![CDATA[]]>			</system-out>
 			<system-err>
 <![CDATA[]]>			</system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="148" name="test_task6_get_abs_url_exists" time="0.001" timestamp="2020-03-23T00:28:08">
-			<failure message="Did you implement the `get_absolute_url` method?" type="AssertionError">
-<![CDATA[Traceback (most recent call last):
-  File "/Users/dell/Documents/GitHub/python-django-models-authentication/module3/tests.py", line 149, in test_task6_get_abs_url_exists
-    self.assertTrue(self.get_abs_url_found, msg="Did you implement the `get_absolute_url` method?")
-  File "/Users/dell/Documents/GitHub/python-django-models-authentication/support/SimplerTestCase.py", line 12, in assertTrue
-    self.fail(msg or (str(expr) + "is not True"))
-AssertionError: Did you implement the `get_absolute_url` method?
-]]>			</failure>
+		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="148" name="test_task6_get_abs_url_exists" time="0.001" timestamp="2020-03-23T00:50:15">
 			<system-out>
 <![CDATA[]]>			</system-out>
 			<system-err>
 <![CDATA[]]>			</system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="151" name="test_task7_register_model_in_admin" time="0.005" timestamp="2020-03-23T00:28:08">
-			<failure message="Did you import `BlogPost`?" type="AssertionError">
-<![CDATA[Traceback (most recent call last):
-  File "/Users/dell/Documents/GitHub/python-django-models-authentication/module3/tests.py", line 170, in test_task7_register_model_in_admin
-    self.assertTrue(import_BlogPost_found, msg="Did you import `BlogPost`?")
-  File "/Users/dell/Documents/GitHub/python-django-models-authentication/support/SimplerTestCase.py", line 12, in assertTrue
-    self.fail(msg or (str(expr) + "is not True"))
-AssertionError: Did you import `BlogPost`?
-]]>			</failure>
+		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="151" name="test_task7_register_model_in_admin" time="0.003" timestamp="2020-03-23T00:50:15">
 			<system-out>
 <![CDATA[]]>			</system-out>
 			<system-err>
 <![CDATA[]]>			</system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="173" name="test_task8_update_views_with_BlogPost" time="0.004" timestamp="2020-03-23T00:28:08">
-			<failure message="Did you import `BlogPost`?" type="AssertionError">
-<![CDATA[Traceback (most recent call last):
-  File "/Users/dell/Documents/GitHub/python-django-models-authentication/module3/tests.py", line 203, in test_task8_update_views_with_BlogPost
-    self.assertTrue(import_BlogPost_found, msg="Did you import `BlogPost`?")
-  File "/Users/dell/Documents/GitHub/python-django-models-authentication/support/SimplerTestCase.py", line 12, in assertTrue
-    self.fail(msg or (str(expr) + "is not True"))
-AssertionError: Did you import `BlogPost`?
-]]>			</failure>
+		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="173" name="test_task8_update_views_with_BlogPost" time="0.004" timestamp="2020-03-23T00:50:15">
 			<system-out>
 <![CDATA[]]>			</system-out>
 			<system-err>
 <![CDATA[]]>			</system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="208" name="test_task9_update_post_view_with_BlogPost" time="0.005" timestamp="2020-03-23T00:28:08">
-			<failure message="Did you remove the `try/catch` block?" type="AssertionError">
-<![CDATA[Traceback (most recent call last):
-  File "/Users/dell/Documents/GitHub/python-django-models-authentication/module3/tests.py", line 231, in test_task9_update_post_view_with_BlogPost
-    self.assertTrue(try_catch_found == False, msg="Did you remove the `try/catch` block?")
-  File "/Users/dell/Documents/GitHub/python-django-models-authentication/support/SimplerTestCase.py", line 12, in assertTrue
-    self.fail(msg or (str(expr) + "is not True"))
-AssertionError: Did you remove the `try/catch` block?
-]]>			</failure>
+		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="208" name="test_task9_update_post_view_with_BlogPost" time="0.003" timestamp="2020-03-23T00:50:15">
 			<system-out>
 <![CDATA[]]>			</system-out>
 			<system-err>
