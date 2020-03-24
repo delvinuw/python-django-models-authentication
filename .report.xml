@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-	<testsuite errors="0" failures="12" file="tests.py" name="tests.PostTestCase-20200323005127" skipped="0" tests="12" time="0.032" timestamp="2020-03-23T00:51:27">
-		<testcase classname="tests.PostTestCase" file="module4/tests.py" line="246" name="test_task10_uncomment_templates" time="0.012" timestamp="2020-03-23T00:51:27">
+	<testsuite errors="0" failures="12" file="tests.py" name="tests.PostTestCase-20200324042842" skipped="0" tests="12" time="0.029" timestamp="2020-03-24T04:28:42">
+		<testcase classname="tests.PostTestCase" file="module4/tests.py" line="246" name="test_task10_uncomment_templates" time="0.009" timestamp="2020-03-24T04:28:42">
 			<failure message="There is still a `{% comment %}` tag in `mainapp/templates/mainapp/snippet_post_list.html`" type="AssertionError">
 <![CDATA[Traceback (most recent call last):
   File "/Users/dell/Documents/GitHub/python-django-models-authentication/module4/tests.py", line 255, in test_task10_uncomment_templates
@@ -15,7 +15,7 @@ AssertionError: There is still a `{% comment %}` tag in `mainapp/templates/maina
 			<system-err>
 <![CDATA[]]>			</system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" file="module4/tests.py" line="258" name="test_task11_admin_register_tag" time="0.003" timestamp="2020-03-23T00:51:27">
+		<testcase classname="tests.PostTestCase" file="module4/tests.py" line="258" name="test_task11_admin_register_tag" time="0.003" timestamp="2020-03-24T04:28:42">
 			<failure message="Did you import `Tag`?" type="AssertionError">
 <![CDATA[Traceback (most recent call last):
   File "/Users/dell/Documents/GitHub/python-django-models-authentication/module4/tests.py", line 279, in test_task11_admin_register_tag
@@ -29,7 +29,7 @@ AssertionError: Did you import `Tag`?
 			<system-err>
 <![CDATA[]]>			</system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" file="module4/tests.py" line="282" name="test_task12_make_migrations" time="0.003" timestamp="2020-03-23T00:51:27">
+		<testcase classname="tests.PostTestCase" file="module4/tests.py" line="282" name="test_task12_make_migrations" time="0.003" timestamp="2020-03-24T04:28:42">
 			<failure message="Did you use `manage.py makemigrations` to create the `Tag` migrations file? Don't forget to `add` it to the git repo." type="AssertionError">
 <![CDATA[Traceback (most recent call last):
   File "/Users/dell/Documents/GitHub/python-django-models-authentication/module4/tests.py", line 285, in test_task12_make_migrations
@@ -43,7 +43,7 @@ AssertionError: Did you use `manage.py makemigrations` to create the `Tag` migra
 			<system-err>
 <![CDATA[]]>			</system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" file="module4/tests.py" line="114" name="test_task1_tag_model_exists" time="0.002" timestamp="2020-03-23T00:51:27">
+		<testcase classname="tests.PostTestCase" file="module4/tests.py" line="114" name="test_task1_tag_model_exists" time="0.002" timestamp="2020-03-24T04:28:42">
 			<failure message="Did you create the `Tag` class?" type="AssertionError">
 <![CDATA[Traceback (most recent call last):
   File "/Users/dell/Documents/GitHub/python-django-models-authentication/module4/tests.py", line 120, in test_task1_tag_model_exists
@@ -57,7 +57,7 @@ AssertionError: Did you create the `Tag` class?
 			<system-err>
 <![CDATA[]]>			</system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" file="module4/tests.py" line="125" name="test_task2_clean_method_exists" time="0.002" timestamp="2020-03-23T00:51:27">
+		<testcase classname="tests.PostTestCase" file="module4/tests.py" line="125" name="test_task2_clean_method_exists" time="0.001" timestamp="2020-03-24T04:28:42">
 			<failure message="Did you implement the `clean` method in the `Tag` model class?" type="AssertionError">
 <![CDATA[Traceback (most recent call last):
   File "/Users/dell/Documents/GitHub/python-django-models-authentication/module4/tests.py", line 129, in test_task2_clean_method_exists
@@ -71,7 +71,7 @@ AssertionError: Did you implement the `clean` method in the `Tag` model class?
 			<system-err>
 <![CDATA[]]>			</system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" file="module4/tests.py" line="132" name="test_task3_str_exists" time="0.001" timestamp="2020-03-23T00:51:27">
+		<testcase classname="tests.PostTestCase" file="module4/tests.py" line="132" name="test_task3_str_exists" time="0.001" timestamp="2020-03-24T04:28:42">
 			<failure message="Did you implement the `__str__` method in the `Tag` model class?" type="AssertionError">
 <![CDATA[Traceback (most recent call last):
   File "/Users/dell/Documents/GitHub/python-django-models-authentication/module4/tests.py", line 134, in test_task3_str_exists
@@ -85,7 +85,7 @@ AssertionError: Did you implement the `__str__` method in the `Tag` model class?
 			<system-err>
 <![CDATA[]]>			</system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" file="module4/tests.py" line="136" name="test_task4_many_to_many_exists" time="0.001" timestamp="2020-03-23T00:51:27">
+		<testcase classname="tests.PostTestCase" file="module4/tests.py" line="136" name="test_task4_many_to_many_exists" time="0.001" timestamp="2020-03-24T04:28:42">
 			<failure message="Did you add the `name` field?" type="AssertionError">
 <![CDATA[Traceback (most recent call last):
   File "/Users/dell/Documents/GitHub/python-django-models-authentication/module4/tests.py", line 138, in test_task4_many_to_many_exists
@@ -99,7 +99,7 @@ AssertionError: Did you add the `name` field?
 			<system-err>
 <![CDATA[]]>			</system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" file="module4/tests.py" line="192" name="test_task5_tag_view" time="0.001" timestamp="2020-03-23T00:51:27">
+		<testcase classname="tests.PostTestCase" file="module4/tests.py" line="192" name="test_task5_tag_view" time="0.002" timestamp="2020-03-24T04:28:42">
 			<failure message="Did you create the `tag_post` function?" type="AssertionError">
 <![CDATA[Traceback (most recent call last):
   File "/Users/dell/Documents/GitHub/python-django-models-authentication/module4/tests.py", line 195, in test_task5_tag_view
@@ -113,7 +113,7 @@ AssertionError: Did you create the `tag_post` function?
 			<system-err>
 <![CDATA[]]>			</system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" file="module4/tests.py" line="198" name="test_task6_tag_view_title" time="0.001" timestamp="2020-03-23T00:51:27">
+		<testcase classname="tests.PostTestCase" file="module4/tests.py" line="198" name="test_task6_tag_view_title" time="0.001" timestamp="2020-03-24T04:28:42">
 			<failure message="Did you lowercase `name` in the `tag_post` method?" type="AssertionError">
 <![CDATA[Traceback (most recent call last):
   File "/Users/dell/Documents/GitHub/python-django-models-authentication/module4/tests.py", line 200, in test_task6_tag_view_title
@@ -127,7 +127,7 @@ AssertionError: Did you lowercase `name` in the `tag_post` method?
 			<system-err>
 <![CDATA[]]>			</system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" file="module4/tests.py" line="203" name="test_task7_tag_view_find_posts" time="0.003" timestamp="2020-03-23T00:51:27">
+		<testcase classname="tests.PostTestCase" file="module4/tests.py" line="203" name="test_task7_tag_view_find_posts" time="0.001" timestamp="2020-03-24T04:28:42">
 			<failure message="Did you set `tag` to `get_object_or_404`'s result?" type="AssertionError">
 <![CDATA[Traceback (most recent call last):
   File "/Users/dell/Documents/GitHub/python-django-models-authentication/module4/tests.py", line 206, in test_task7_tag_view_find_posts
@@ -141,7 +141,7 @@ AssertionError: Did you set `tag` to `get_object_or_404`'s result?
 			<system-err>
 <![CDATA[]]>			</system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" file="module4/tests.py" line="209" name="test_task8_add_tag_url" time="0.001" timestamp="2020-03-23T00:51:27">
+		<testcase classname="tests.PostTestCase" file="module4/tests.py" line="209" name="test_task8_add_tag_url" time="0.002" timestamp="2020-03-24T04:28:42">
 			<failure message="Did you add the tag path to urls.py with the route `'tag/&lt;str:name&gt;'`?" type="AssertionError">
 <![CDATA[Traceback (most recent call last):
   File "/Users/dell/Documents/GitHub/python-django-models-authentication/module4/tests.py", line 212, in test_task8_add_tag_url
@@ -155,7 +155,7 @@ AssertionError: Did you add the tag path to urls.py with the route `'tag/<str:na
 			<system-err>
 <![CDATA[]]>			</system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" file="module4/tests.py" line="236" name="test_task9_url_reverser" time="0.002" timestamp="2020-03-23T00:51:27">
+		<testcase classname="tests.PostTestCase" file="module4/tests.py" line="236" name="test_task9_url_reverser" time="0.002" timestamp="2020-03-24T04:28:42">
 			<failure message="The method `get_absolute_url()` does not exist in the BlogPost model." type="AssertionError">
 <![CDATA[Traceback (most recent call last):
   File "/Users/dell/Documents/GitHub/python-django-models-authentication/module4/tests.py", line 240, in test_task9_url_reverser
